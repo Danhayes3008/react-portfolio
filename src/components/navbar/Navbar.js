@@ -9,9 +9,9 @@ const Navbar = () => {
 
       <div className='navbar'>
         <ul>
-          <li>Skills</li>
-          <li>Portfolio</li>
-          <li>About</li>
+          <li><a>Skills</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
         </ul>
       </div>
     </nav>

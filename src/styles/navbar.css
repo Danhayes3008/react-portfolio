@@ -5,6 +5,10 @@
   float: left;
 }
 
+.Name a:hover {
+  color: black;
+}
+
 .navbar {
   display: inline-block;
 }
@@ -21,6 +25,10 @@ nav a {
   color: white;
   font-size: large;
   font-weight: bold;
+}
+
+nav li a:hover {
+  color: black;
 }
 
 nav ul {

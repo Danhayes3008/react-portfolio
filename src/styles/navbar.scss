@@ -1,23 +1,35 @@
 .Name {
+  height: 40px;
+  padding: 15px;
   display: inline-block;
+  float: left;
 }
 .navbar {
   display: inline-block;
 }
 nav {
   width: 100%;
-  line-height: 10px;
+  height: 60px;
+  // line-height: 10px;
   padding-left: 15px;
+  background-color: slategrey;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: white;
   font-size: large;
   font-weight: bold;
 }
 
+nav ul {
+  height: 40px;
+  margin: 0px;
+}
+
 nav ul li {
+  height: 40px;
+  padding: 15px;
   list-style: none;
   display: inline-block;
   float: left;

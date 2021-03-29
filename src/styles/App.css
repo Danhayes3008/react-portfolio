@@ -1,5 +1,5 @@
 .title {
-  height: 40px;
+  height: 60px;
   padding: 15px;
   display: inline-block;
   float: left;
@@ -7,6 +7,11 @@
   color: white;
   font-weight: bold;
   font-size: larger;
+}
+
+.title p {
+  margin: 0px;
+  padding: 15px;
 }
 
 .navbar {
@@ -29,7 +34,7 @@ nav a {
 }
 
 nav li a:hover {
-  color: black;
+  color: #ff531a;
 }
 
 nav ul {
@@ -39,8 +44,7 @@ nav ul {
 }
 
 nav ul li {
-  height: 40px;
-  padding: 15px;
+  padding: 20px;
   list-style: none;
   display: inline-block;
 }

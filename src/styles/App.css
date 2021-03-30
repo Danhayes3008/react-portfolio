@@ -51,6 +51,17 @@ nav ul li {
   display: inline-block;
 }
 
+.about {
+  margin: 2%;
+  color: white;
+}
+
+.body {
+  height: 850px;
+  margin: 2%;
+  background-color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

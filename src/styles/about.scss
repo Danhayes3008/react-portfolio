@@ -16,11 +16,21 @@
   padding: 0%;
 }
 
+.abt-img img {
+  position: absolute;
+  border-radius: 50%;
+  width: 29vw;
+}
+
 .name {
   text-align: center;
   width: 50%;
 }
 
 .image {
-  box-shadow: 0 0 8px 8px white inset;
+  position: absolute;
+  border-radius: 50%;
+  width: 29vw;
+  height: 51vh;
+  box-shadow: 0 0 8px 8px black inset;
 }

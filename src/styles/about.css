@@ -30,6 +30,20 @@
   font-family: sans-serif;
 }
 
+.btn {
+  float: right;
+  display: block;
+  width: 29%;
+  height: 40px;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: green;
+}
+
 .name {
   text-align: center;
   padding-left: 10%;
@@ -46,5 +60,11 @@
   height: 51vh;
   -webkit-box-shadow: 0 0 8px 8px black inset;
           box-shadow: 0 0 8px 8px black inset;
+}
+
+.projects-btn {
+  width: 85%;
+  padding-bottom: 18%;
+  padding-top: 6%;
 }
 /*# sourceMappingURL=about.css.map */

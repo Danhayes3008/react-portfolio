@@ -12,6 +12,9 @@ const About = () => {
                     and am willing to learn what ever is needed to help both progress my career and ability to contribute to the
                     team.
                 </p>
+                <div className='projects-btn'>
+                    <button className='btn'>Checkout my Projects</button>
+                </div>
                 <img src="https://ghchart.rshah.org/76EE00/danhayes3008" alt="2016rshah's Blue Github Chart" />
             </div>
             <div className='abt-img'>

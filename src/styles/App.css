@@ -83,6 +83,10 @@ nav ul li {
   font-family: sans-serif;
 }
 
+.btn {
+  float: right;
+}
+
 .name {
   text-align: center;
   padding-left: 10%;

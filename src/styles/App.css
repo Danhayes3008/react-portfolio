@@ -69,14 +69,27 @@ nav ul li {
   padding: 0%;
 }
 
+.abt-img img {
+  position: absolute;
+  border-radius: 50%;
+  width: 29vw;
+}
+
 .name {
   text-align: center;
   width: 50%;
+  color: orange;
+  font-size: 60px;
+  font-style: italic;
 }
 
 .image {
-  -webkit-box-shadow: 0 0 8px 8px white inset;
-          box-shadow: 0 0 8px 8px white inset;
+  position: absolute;
+  border-radius: 50%;
+  width: 29vw;
+  height: 51vh;
+  -webkit-box-shadow: 0 0 8px 8px black inset;
+          box-shadow: 0 0 8px 8px black inset;
 }
 
 .body {
@@ -145,5 +158,6 @@ nav ul li {
 
 body {
   background-color: #262626;
+  overflow: hidden;
 }
 /*# sourceMappingURL=App.css.map */

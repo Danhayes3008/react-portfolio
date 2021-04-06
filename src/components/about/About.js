@@ -6,7 +6,7 @@ const About = () => {
         <div className='about'>
             <div className='abt-cont'>
                 <h1 className='name'>Daniel Hayes</h1>
-                <p>
+                <p className='abt-statement'>
                     As someone who is new to the industry I am looking for the right place to hone my skills and become
                     a expert in React and other JavaScript based Languages and Frameworks. I also enjoy working With Python
                     and am willing to learn what ever is needed to help both progress my career and ability to contribute to the

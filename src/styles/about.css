@@ -2,4 +2,14 @@
   margin: 2%;
   color: white;
 }
+
+.name {
+  text-align: center;
+  width: 50%;
+}
+
+.image {
+  -webkit-box-shadow: 0 0 8px 8px white inset;
+          box-shadow: 0 0 8px 8px white inset;
+}
 /*# sourceMappingURL=about.css.map */

@@ -1,6 +1,12 @@
 .about {
-  margin: 2%;
+  padding-top: 8%;
   color: white;
+}
+
+.abt-cont {
+  float: left;
+  width: 50%;
+  padding-left: 2%;
 }
 
 .name {

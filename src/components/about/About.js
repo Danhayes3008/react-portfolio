@@ -6,6 +6,7 @@ const About = () => {
         <div className='about'>
             <div className='abt-cont'>
                 <h1 className='name'>Daniel Hayes</h1>
+                <img src="https://ghchart.rshah.org/76EE00/danhayes3008" alt="2016rshah's Blue Github Chart" />
             </div>
             <div className='abt-img'>
                 <img src={Image} />

@@ -5,16 +5,23 @@ const Skills = () => {
     <div>
       <h1 className="Skills-title">Skills</h1>
       <div>
-      <ul>
-          <li className="skill">HTML</li>
-          <li className="skill">JavaScript</li>
-          <li className="skill">Python</li>
-          <li className="skill">Database</li>
-      </ul>
+        <ul>
+          <li className="skill">
+            <p>HTML5</p>
+          </li>
+          <li className="skill">
+            <p>JavaScript</p>
+          </li>
+          <li className="skill">
+            <p>Python</p>
+          </li>
+          <li className="skill">
+          <p>Databases</p>
+            </li>
+        </ul>
+      </div>
     </div>
-    </div>
-
-  )
+  );
 };
 
 export default Skills;

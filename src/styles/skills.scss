@@ -8,25 +8,32 @@
 
 .skill {
   position: relative;
-  width: 25%;
+  width: 100%;
   font-size: 30px;
   text-align: center;
   color: white;
   list-style: none;
   display: inline-block;
 }
+.skills {
+  display: inline-block;
+  color: white;
+  width: 25%;
+}
+
+.skills:hover {
+  color: orange;
+}
 
 .skill-sub-list {
-  display: none;
+  display: block;
+  position: absolute;
   list-style: none;
   color: white;
+  z-index: 1;
 }
 
 .skill:hover .skill-sub-list {
   display: inline-block;
   color: white;
-}
-
-.sub-list {
-  display: inline-block !important;
 }

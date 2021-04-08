@@ -8,6 +8,9 @@
 
 .skill {
   position: relative;
+  width: 25%;
+  font-size: 30px;
+  text-align: center;
   color: white;
   list-style: none;
   display: inline-block;
@@ -22,5 +25,9 @@
 .skill:hover .skill-sub-list {
   display: inline-block;
   color: white;
+}
+
+.sub-list {
+  display: inline-block !important;
 }
 /*# sourceMappingURL=skills.css.map */

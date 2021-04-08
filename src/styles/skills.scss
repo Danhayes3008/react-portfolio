@@ -1,0 +1,25 @@
+.Skills-title {
+  padding: 5%;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: orange;
+}
+
+.skill {
+  position: relative;
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
+
+.skill-sub-list {
+  display: none;
+  list-style: none;
+  color: white;
+}
+
+.skill:hover .skill-sub-list {
+  display: block;
+  color: white;
+}

@@ -52,8 +52,11 @@ nav ul li {
 }
 
 .about {
+  height: 700px;
+  width: 100vw;
   padding-top: 8%;
   color: white;
+  background-color: grey;
 }
 
 .abt-cont {
@@ -122,8 +125,9 @@ nav ul li {
 }
 
 .body {
-  height: 850px;
-  margin: 2%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   background-color: black;
 }
 
@@ -146,9 +150,9 @@ nav ul li {
 }
 
 .skills {
-  display: inline-block;
+  display: block;
   color: white;
-  width: 25%;
+  width: 100%;
 }
 
 .skills:hover {
@@ -198,8 +202,7 @@ nav ul li {
 }
 
 body {
-  background-color: #262626;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .hidden {

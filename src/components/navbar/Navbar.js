@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Navbar = () => {
+
+  const Skills = () => {
+    window.scrollTo(0, 900);
+  }
   return (
       <nav>
           <div className='title'>
@@ -10,7 +14,7 @@ const Navbar = () => {
       <div className='navbar'>
         <ul>
           <li><a href="about">about</a></li>
-          <li><a href="skills">skills</a></li>
+          <li><a onClick={Skills}>skills</a></li>
           <li><a href="projects">projects</a></li>
           <li><a href="contact">contact</a></li>
         </ul>

@@ -7,22 +7,19 @@ const Skills = () => {
         <h1 className="Skills-title">Skills</h1>
       </div>
       <div className='skill'>
-        <span className='skills'>HTML5</span>
-        <span className='skills'>JavaScript</span>
-        <span className='skills'>Python</span>
-        <span className='skills'>Database</span>
-      </div>
-      <div className='skill-sub-list'>
         <div>
-          <p className='skill-title'>HTML</p>
-          <div className="progress-bar">
-            <span className='html-progress'>50%</span>
-          </div>
+          <h3 className='subjects'>HTML5</h3>
         </div>
-
-          <p>CSS</p>
-          <p>SASS</p>
+        <div>
+          <span className='subjects'>JavaScript</span>
         </div>
+        <div>
+          <span className='subjects'>Python</span>
+        </div>
+        <div>
+          <span className='subjects'>Database</span>
+        </div>
+      </div>
     </div>
   );
 };

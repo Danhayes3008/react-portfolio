@@ -145,7 +145,6 @@ nav ul li {
   width: 100%;
   height: 75%;
   font-size: 30px;
-  text-align: center;
   color: white;
   list-style: none;
   display: inline-block;
@@ -179,8 +178,57 @@ nav ul li {
 
 .progressbar {
   background-color: #262626;
+  border-radius: 20px;
   width: 100%;
   height: 20px;
+}
+
+.html {
+  border-radius: 20px;
+  width: 80%;
+  height: 100%;
+  background-color: green;
+}
+
+.html-progress {
+  float: right;
+  padding-right: 20%;
+}
+
+.JavaScript {
+  border-radius: 20px;
+  width: 90%;
+  height: 100%;
+  background-color: green;
+}
+
+.js-progress {
+  float: right;
+  padding-right: 10%;
+}
+
+.Python {
+  border-radius: 20px;
+  width: 45%;
+  height: 100%;
+  background-color: green;
+}
+
+.python-progress {
+  float: right;
+  padding-right: 55%;
+}
+
+.Database {
+  border-radius: 20px;
+  width: 35%;
+  height: 100%;
+  background-color: green;
+}
+
+.db-progress {
+  float: right;
+  padding-right: 65%;
 }
 
 body {

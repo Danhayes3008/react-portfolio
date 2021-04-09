@@ -166,11 +166,17 @@ nav ul li {
 
 .subjects {
   display: inline-block;
+  vertical-align: top;
   width: 20%;
   height: 100%;
   background-color: grey;
   margin: 45px;
   border-radius: 10px;
+}
+
+.subjects ul {
+  list-style: none;
+  padding: 0px;
 }
 
 body {

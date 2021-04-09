@@ -23,46 +23,8 @@
   height: 700px;
 }
 
-.skills:hover {
-  color: orange;
-}
-
-.skill-sub-list {
-  display: block;
-  width: 100%;
-  position: absolute;
-  list-style: none;
-  color: white;
-  z-index: 1;
-}
-
-.skill:hover .skill-sub-list {
-  display: inline-block;
-  color: white;
-}
-
 .skill-title {
   display: inline-block;
   font-size: 30px;
   height: 30px;
-}
-.progress-bar {
-  width: 50%;
-  height: 30px;
-  background-color: white;
-  border: 1px solid grey;
-  border-radius: 25px;
-  display: inline-block;
-  line-height: 37px;
-  margin: 5px;
-}
-.html-progress {
-  text-align: center;
-  width: 50%;
-  height: 100%;
-  background-color: green;
-  color: black;
-  font-weight: bold;
-  display: inline-block;
-  border-radius: 25px;
 }

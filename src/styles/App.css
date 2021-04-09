@@ -137,6 +137,7 @@ nav ul li {
   font-style: italic;
   font-weight: bold;
   color: orange;
+  text-align: center;
 }
 
 .skill {
@@ -153,6 +154,7 @@ nav ul li {
   display: block;
   color: white;
   width: 100%;
+  height: 700px;
 }
 
 .skills:hover {

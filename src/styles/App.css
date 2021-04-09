@@ -168,8 +168,6 @@ nav ul li {
   display: inline-block;
   vertical-align: top;
   width: 20%;
-  height: 100%;
-  background-color: grey;
   margin: 45px;
   border-radius: 10px;
 }
@@ -177,6 +175,12 @@ nav ul li {
 .subjects ul {
   list-style: none;
   padding: 0px;
+}
+
+.progressbar {
+  background-color: #262626;
+  width: 100%;
+  height: 20px;
 }
 
 body {

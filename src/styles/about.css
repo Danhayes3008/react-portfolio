@@ -1,6 +1,9 @@
 .about {
+  height: 700px;
+  width: 100vw;
   padding-top: 8%;
   color: white;
+  background-color: grey;
 }
 
 .abt-cont {

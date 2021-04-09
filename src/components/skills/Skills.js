@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="subjects">
           <div>
             <span>HTML5</span>
-            <span>80%</span>
+            <span className="html-progress">80%</span>
           </div>
           <div className="progressbar">
             <div className="html"></div>
@@ -19,6 +19,7 @@ const Skills = () => {
         <div className="subjects">
           <div>
             <span>JavaScript</span>
+            <span className="js-progress">90%</span>
           </div>
           <div className="progressbar">
             <div className="JavaScript"></div>
@@ -27,6 +28,7 @@ const Skills = () => {
         <div className="subjects">
           <div>
             <span>Python</span>
+            <span className="python-progress">45%</span>
           </div>
           <div className="progressbar">
             <div className="Python"></div>
@@ -35,6 +37,7 @@ const Skills = () => {
         <div className="subjects">
           <div>
             <span>Database</span>
+            <span className="db-progress">35%</span>
           </div>
           <div className="progressbar">
             <div className="Database"></div>

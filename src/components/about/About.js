@@ -3,7 +3,7 @@ import Image from '../../styles/img/me_temp.png'
 
 const About = () => {
     return (
-        <div className='about hidden'>
+        <div className='about'>
             <div className='abt-cont'>
                 <h1 className='name'>Daniel Hayes</h1>
                 <p className='abt-statement'>
@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <img src="https://ghchart.rshah.org/76EE00/danhayes3008" alt="2016rshah's Blue Github Chart" />
             </div>
-            <div className='abt-img'>           
+            <div className='abt-img'>
                 <img src={Image} alt='no image available' />
                 <div  className='image'>
                 </div>

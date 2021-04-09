@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div>
+    <div className='hidden'>
       <div>
         <h1 className="Skills-title">Skills</h1>
       </div>
@@ -13,7 +13,13 @@ const Skills = () => {
         <span className='skills'>Database</span>
       </div>
       <div className='skill-sub-list'>
-          <p>HTML</p>
+        <div>
+          <p className='skill-title'>HTML</p>
+          <div className="progress-bar">
+            <span className='html-progress'>50%</span>
+          </div>
+        </div>
+
           <p>CSS</p>
           <p>SASS</p>
         </div>

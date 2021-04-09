@@ -9,11 +9,9 @@ const Skills = () => {
       <div className="skill">
         <div className="subjects">
           <h3>HTML5</h3>
-          <ul>
-            <li>html</li>
-            <li>css</li>
-            <li>scss</li>
-          </ul>
+          <div className="progressbar">
+            <div className="html"></div>
+          </div>
         </div>
         <div className="subjects">
           <h3>JavaScript</h3>
@@ -22,22 +20,22 @@ const Skills = () => {
             <li>React</li>
             <li>Node</li>
             <li>Electron</li>
-        </ul>
+          </ul>
         </div>
         <div className="subjects">
           <h3>Python</h3>
           <ul>
-          <li>Flask</li>
-          <li>Django</li>
-        </ul>
+            <li>Flask</li>
+            <li>Django</li>
+          </ul>
         </div>
         <div className="subjects">
           <h3>Database</h3>
           <ul>
-          <li>SQLite3</li>
-          <li>MongoDB</li>
-          <li>JSON</li>
-        </ul>
+            <li>SQLite3</li>
+            <li>MongoDB</li>
+            <li>JSON</li>
+          </ul>
         </div>
       </div>
     </div>

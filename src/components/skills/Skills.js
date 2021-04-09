@@ -8,34 +8,37 @@ const Skills = () => {
       </div>
       <div className="skill">
         <div className="subjects">
-          <h3>HTML5</h3>
+          <div>
+            <span>HTML5</span>
+            <span>80%</span>
+          </div>
           <div className="progressbar">
             <div className="html"></div>
           </div>
         </div>
         <div className="subjects">
-          <h3>JavaScript</h3>
-          <ul>
-            <li>ES6</li>
-            <li>React</li>
-            <li>Node</li>
-            <li>Electron</li>
-          </ul>
+          <div>
+            <span>JavaScript</span>
+          </div>
+          <div className="progressbar">
+            <div className="JavaScript"></div>
+          </div>
         </div>
         <div className="subjects">
-          <h3>Python</h3>
-          <ul>
-            <li>Flask</li>
-            <li>Django</li>
-          </ul>
+          <div>
+            <span>Python</span>
+          </div>
+          <div className="progressbar">
+            <div className="Python"></div>
+          </div>
         </div>
         <div className="subjects">
-          <h3>Database</h3>
-          <ul>
-            <li>SQLite3</li>
-            <li>MongoDB</li>
-            <li>JSON</li>
-          </ul>
+          <div>
+            <span>Database</span>
+          </div>
+          <div className="progressbar">
+            <div className="Database"></div>
+          </div>
         </div>
       </div>
     </div>

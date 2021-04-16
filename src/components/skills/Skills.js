@@ -7,22 +7,38 @@ const Skills = () => {
     {
       id: 1,
       text: 'HTML5',
-      persentage: 80
+      persentage: 80,
+      width: "80%",
+      borderRadius: "20px",
+      height: "100%",
+      backgroundColor: "green"
     },
     {
       id: 2,
       text: 'JavaScript',
-      persentage: 75
+      persentage: 75,
+      width: "75%",
+      borderRadius: "20px",
+      height: "100%",
+      backgroundColor: "green"
     },
     {
       id: 3,
       text: 'Python',
-      persentage: 45
+      persentage: 45,
+      width: "45%",
+      borderRadius: "20px",
+      height: "100%",
+      backgroundColor: "green"
     },
     {
       id: 4,
       text: 'Databases',
-      persentage: 35
+      persentage: 35,
+      width: "35%",
+      borderRadius: "20px",
+      height: "100%",
+      backgroundColor: "green"
     },
   ])
   return (
@@ -31,7 +47,7 @@ const Skills = () => {
                 <Skill key={skill.id} skills={skill} />
             ))}
         </>
-    
+
   );
 };
 

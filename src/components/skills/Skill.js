@@ -7,8 +7,8 @@ const Skill = ({skills}) => {
                 <span>{ skills.text}</span>
           </div>
           <div className="progressbar">
-                <div className="progress">
-                    <span className="percentage">{ skills.persentage}</span>
+                <div style={skills}>
+                    <span >{ skills.persentage}</span>
             </div>
           </div>
         </div>

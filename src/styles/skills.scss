@@ -49,9 +49,13 @@
   height: 20px;
 }
 
-.html {
-  border-radius: 20px;
-  width: 80%;
+.progress {
   height: 100%;
-  background-color: green;
+  color: white;
+  float: right;
+  padding-right: 5px;
+}
+
+.skill-name {
+  color: white;
 }

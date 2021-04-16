@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Skill = (skills) => {
+const Skill = ({skills}) => {
     return (
         <div className="subjects">
           <div>
@@ -8,7 +8,7 @@ const Skill = (skills) => {
           </div>
           <div className="progressbar">
                 <div className="progress">
-                    <span className="percentage">{ skills.percentage}</span>
+                    <span className="percentage">{ skills.persentage}</span>
             </div>
           </div>
         </div>

@@ -1,53 +1,53 @@
 import React from "react";
-import { useState } from 'react'
- import Skill from './Skill'
+import { useState } from "react";
+import Skill from "./Skill";
 
 const Skills = () => {
   const [skills] = useState([
     {
       id: 1,
-      text: 'HTML5',
+      text: "HTML5",
       persentage: 80,
       width: "80%",
       borderRadius: "20px",
       height: "100%",
-      backgroundColor: "green"
+      backgroundColor: "green",
     },
     {
       id: 2,
-      text: 'JavaScript',
+      text: "JavaScript",
       persentage: 75,
       width: "75%",
       borderRadius: "20px",
       height: "100%",
-      backgroundColor: "green"
+      backgroundColor: "green",
     },
     {
       id: 3,
-      text: 'Python',
+      text: "Python",
       persentage: 45,
       width: "45%",
       borderRadius: "20px",
       height: "100%",
-      backgroundColor: "green"
+      backgroundColor: "green",
     },
     {
       id: 4,
-      text: 'Databases',
+      text: "Databases",
       persentage: 35,
       width: "35%",
       borderRadius: "20px",
       height: "100%",
-      backgroundColor: "green"
+      backgroundColor: "green",
     },
-  ])
+  ]);
   return (
     <>
-            {skills.map((skill) => (
-                <Skill key={skill.id} skills={skill} />
-            ))}
-        </>
-
+      <h1 className="Skills-title">Skills</h1>
+      {skills.map((skill) => (
+        <Skill key={skill.id} skills={skill} />
+      ))}
+    </>
   );
 };
 

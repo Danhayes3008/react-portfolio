@@ -43,10 +43,12 @@ const Skills = () => {
   ]);
   return (
     <>
-      <h1 className="Skills-title">Skills</h1>
-      {skills.map((skill) => (
-        <Skill key={skill.id} skills={skill} />
-      ))}
+      <div>
+        <h1 className="Skills-title">Skills</h1>
+        {skills.map((skill) => (
+          <Skill key={skill.id} skills={skill} />
+        ))}
+      </div>
     </>
   );
 };

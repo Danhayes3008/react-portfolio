@@ -5,7 +5,7 @@ const Project = ({project}) => {
         <div className="project">
             <h1 className="project-name">{project.name}</h1>
             <img src={project.Poster} alt='project'></img>
-            <p>Coming soon</p>
+            <p>{project.text}</p>
         </div>
     )
 }

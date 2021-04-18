@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='navbar'>
         <ul>
           <li><a href="about">about</a></li>
-          <li><a onClick={Skills}>skills</a></li>
+          <li onClick={Skills}>skills</li>
           <li><a href="projects">projects</a></li>
           <li><a href="contact">contact</a></li>
         </ul>

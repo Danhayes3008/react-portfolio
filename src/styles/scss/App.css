@@ -202,6 +202,14 @@ nav ul li {
   font-style: italic;
 }
 
+.project-title {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  color: orange;
+}
+
 body {
   overflow-x: hidden;
 }

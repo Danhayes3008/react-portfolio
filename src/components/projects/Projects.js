@@ -5,27 +5,33 @@ import Project from "./Project"
 const Projects = () => {
   const [project] = useState([
     {
-      id: 1,
-      name: "Project 1",
-      photo: "../../styles/img/me_temp.png",
-      text: "Coming Soon"
+      "id": 1,
+      "name": "Project 1",
+      "imageUrl": 'https://unsplash.com/s/photos/city',
+      text: "Coming Soon",
     },
     {
       id: 2,
       name: "Project 2",
-      photo: "../../styles/img/me_temp.png",
-      text: "Coming Soon"
+      poster: 'https://unsplash.com/s/photos/city',
+      text: "Coming Soon",
     },
     {
       id: 3,
       name: "Project 3",
-      photo: "../../styles/img/me_temp.png",
+      Poster: 'https://unsplash.com/s/photos/city',
+      text: "Coming Soon"
+    },
+    {
+      id: 4,
+      name: "Project 4",
+      Poster: 'https://unsplash.com/s/photos/city',
       text: "Coming Soon"
     },
   ])
   return (
     <div className="projects">
-      <h1>Projects</h1>
+      <h1 className="project-title">Projects</h1>
       <>
       {project.map((project) => (
           <Project key={project.id} project={project} />

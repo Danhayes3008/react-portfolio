@@ -210,6 +210,11 @@ nav ul li {
   color: orange;
 }
 
+.project p {
+  text-align: center;
+  color: white;
+}
+
 body {
   overflow-x: hidden;
 }

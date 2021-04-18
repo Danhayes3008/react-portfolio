@@ -18,7 +18,7 @@ const About = () => {
                 <img src="https://ghchart.rshah.org/76EE00/danhayes3008" alt="2016rshah's Blue Github Chart" />
             </div>
             <div className='abt-img'>
-                <img src={Image} alt='no image available' />
+                <img src={Image} alt='' />
                 <div  className='image'>
                 </div>
             </div>

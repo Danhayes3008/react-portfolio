@@ -13,7 +13,9 @@ const About = () => {
                     team.
                 </p>
                 <div className='projects-btn'>
-                    <button className='btn'>Checkout my Projects</button>
+                    <a href="https://github.com/Danhayes3008" target="_blank">
+                        <button className='btn'>Checkout my Projects</button>
+                    </a>
                 </div>
                 <h3 className="github">GitHub Repository Contributions</h3>
                 <img className="repository" src="https://ghchart.rshah.org/76EE00/danhayes3008" alt="2016rshah's Blue Github Chart" />

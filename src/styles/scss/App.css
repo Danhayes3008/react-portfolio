@@ -214,6 +214,7 @@ nav ul li {
   margin: 5%;
   border-radius: 5px;
   background-color: black;
+  vertical-align: top;
 }
 
 .projects {

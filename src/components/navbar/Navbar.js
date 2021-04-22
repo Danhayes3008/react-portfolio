@@ -13,10 +13,10 @@ const Navbar = () => {
 
       <div className='navbar'>
         <ul>
-          <li><a href="about">about</a></li>
-          <li onClick={Skills}>skills</li>
-          <li><a href="projects">projects</a></li>
-          <li><a href="contact">contact</a></li>
+          <li className="nav-itm">about</li>
+          <li className="nav-itm" onClick={Skills}>skills</li>
+          <li className="nav-itm">projects</li>
+          <li className="nav-itm">contact</li>
         </ul>
       </div>
     </nav>

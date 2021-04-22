@@ -15,6 +15,7 @@ const About = () => {
                 <div className='projects-btn'>
                     <button className='btn'>Checkout my Projects</button>
                 </div>
+                <h3 className="github">GitHub Repository Contributions</h3>
                 <img src="https://ghchart.rshah.org/76EE00/danhayes3008" alt="2016rshah's Blue Github Chart" />
             </div>
             <div className='abt-img'>

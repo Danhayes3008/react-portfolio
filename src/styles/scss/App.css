@@ -89,7 +89,7 @@ nav ul li {
   font-family: sans-serif;
 }
 
-.btn {
+.github-btn {
   float: right;
   display: block;
   width: 29%;
@@ -98,9 +98,34 @@ nav ul li {
   font-style: italic;
   font-weight: bold;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   background-color: green;
+  margin-right: 10%;
+}
+
+.github {
+  text-align: center;
+  padding-left: 5%;
+  width: 50%;
+  color: orange;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.linkedin-btn {
+  float: right;
+  display: block;
+  width: 29%;
+  height: 40px;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  margin-right: 10%;
 }
 
 .name {
@@ -123,8 +148,12 @@ nav ul li {
 
 .projects-btn {
   width: 85%;
-  padding-bottom: 18%;
+  padding-bottom: 10%;
   padding-top: 6%;
+}
+
+.repository {
+  padding-left: 11%;
 }
 
 .body {
@@ -213,6 +242,10 @@ nav ul li {
 .project p {
   text-align: center;
   color: white;
+}
+
+.project img {
+  width: 100%;
 }
 
 body {

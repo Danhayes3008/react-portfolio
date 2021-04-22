@@ -33,7 +33,7 @@
   font-family: sans-serif;
 }
 
-.btn {
+.github-btn {
   float: right;
   display: block;
   width: 29%;
@@ -42,9 +42,10 @@
   font-style: italic;
   font-weight: bold;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   color: white;
   background-color: green;
+  margin-right: 10%;
 }
 
 .github {
@@ -54,6 +55,21 @@
   color: orange;
   font-size: 20px;
   font-style: italic;
+}
+
+.linkedin-btn {
+  float: right;
+  display: block;
+  width: 29%;
+  height: 40px;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  margin-right: 10%;
 }
 
 .name {

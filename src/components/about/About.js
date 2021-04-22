@@ -13,8 +13,11 @@ const About = () => {
                     team.
                 </p>
                 <div className='projects-btn'>
+                <a href="https://www.linkedin.com/in/daniel-hayes-90050b189/" target="_blank">
+                        <button className='linkedin-btn'>Linkedin</button>
+                    </a>
                     <a href="https://github.com/Danhayes3008" target="_blank">
-                        <button className='btn'>Checkout my Projects</button>
+                        <button className='github-btn'>GitHub</button>
                     </a>
                 </div>
                 <h3 className="github">GitHub Repository Contributions</h3>

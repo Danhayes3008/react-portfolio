@@ -11,7 +11,7 @@ const About = () => {
                 <p className='abt-statement'>
                     As someone who is new to the industry I am looking for the right place to hone my skills and become
                     a expert in React and other JavaScript based Languages and Frameworks. I also enjoy working With Python
-                    and am willing to learn what ever is needed to help both progress my career and ability to contribute to the
+                    and I am willing to learn what ever is needed to help both progress my career and ability to contribute to the
                     team.
                 </p>
                 <div className='projects-btn'>

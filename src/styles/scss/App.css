@@ -31,14 +31,15 @@ nav {
   z-index: 1;
 }
 
-nav a {
+.nav-itm {
   text-decoration: none;
   color: white;
   font-size: large;
   font-weight: bold;
+  cursor: pointer;
 }
 
-nav li a:hover {
+.nav-itm:hover {
   color: #ff531a;
 }
 

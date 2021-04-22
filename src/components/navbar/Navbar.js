@@ -5,6 +5,9 @@ const Navbar = () => {
   const Skills = () => {
     window.scrollTo(0, 900);
   }
+  const About = () => {
+    window.scrollTo(0, 0);
+  }
   return (
       <nav>
           <div className='title'>
@@ -13,7 +16,7 @@ const Navbar = () => {
 
       <div className='navbar'>
         <ul>
-          <li className="nav-itm">about</li>
+          <li className="nav-itm" onClick={About}>about</li>
           <li className="nav-itm" onClick={Skills}>skills</li>
           <li className="nav-itm">projects</li>
           <li className="nav-itm">contact</li>
